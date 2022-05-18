@@ -13,7 +13,7 @@
 #### 一键安装
 
 ```shell
-yum -y install git && git clone https://github.com/GZ1903/docker_v2board.git /usr/local/src/docker_v2board && cd /usr/local/src/docker_v2board && chmod +x docker_v2board.sh && ./docker_v2board.sh
+git clone https://github.com/GZ1903/docker_v2board.git /usr/local/src/docker_v2board && cd /usr/local/src/docker_v2board && chmod +x docker_v2board.sh && ./docker_v2board.sh
 ```
 
 `该脚本适应纯净系统安装，若已安装Docker环境，参照：https://hub.docker.com/r/gz1903/v2board`
