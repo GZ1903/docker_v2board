@@ -17,3 +17,41 @@ yum -y install git && git clone https://github.com/GZ1903/docker_v2board.git /us
 ```
 
 `该脚本适应纯净系统安装，若已安装Docker环境，参照：https://hub.docker.com/r/gz1903/v2board`
+
+### 如何管理？
+
+#### 帐户密码
+
+| MySQL_Default_USER | root                                    |
+| ------------------ | --------------------------------------- |
+| MySQL_Default_PASS | [v2board@qq.com](mailto:v2board@qq.com) |
+
+| V2Board_Admin_USER | [v2board@qq.com](mailto:v2board@qq.com) |
+| ------------------ | --------------------------------------- |
+| V2Board_Admin_PASS | [v2board@qq.com](mailto:v2board@qq.com) |
+
+#### 进入v2board容器
+
+```shell
+docker exec -it v2board /bin/bash
+```
+
+`exit退出容器`
+
+#### 关键文件目录，支持更多扩展
+
+Nginx_conf：`/etc/nginx/`
+
+Nginx_html：`/usr/share/nginx/html/v2board/`
+
+PHP_ini：`/etc/php.ini`
+
+MySQL_conf：`/etc/my.cnf`
+
+MySQL_date：`/var/lib/mysql`
+
+MySQL_log：`/var/log/mysqld.log`
+
+MySQL_Database：`v2board`
+
+Supervisord_ini：`/etc/supervisord.d/v2board.ini`
