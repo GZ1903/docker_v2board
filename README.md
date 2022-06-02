@@ -30,7 +30,7 @@ git clone https://github.com/GZ1903/docker_v2board.git /usr/local/src/docker_v2b
 | ------------------ | --------------------------------------- |
 | V2Board_Admin_PASS | [v2board@qq.com](mailto:v2board@qq.com) |
 
-#### 进入v2board容器
+#### 进入v2board容器管理
 
 ```shell
 docker exec -it v2board /bin/bash
