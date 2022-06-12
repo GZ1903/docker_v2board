@@ -113,7 +113,7 @@ docker run -d \
 --restart always \
 -v /usr/local/v2board:/usr/local/src \
 -p 80:80 \
-gz1903/v2board:latest
+gz1903/v2board:1.6.0
 # 清除缓存垃圾
 rm -rf /usr/local/src/docker_v2board
 }
